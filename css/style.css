@@ -7,6 +7,9 @@ html {
 body {
   display: grid;
   background: #e2cd0f;
+  background-image: url('../img/lh.png');
+  background-repeat: repeat;
+  background-size: 300px;
 }
 
 .container {
