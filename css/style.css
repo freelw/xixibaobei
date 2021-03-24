@@ -7,7 +7,7 @@ html {
 body {
   display: grid;
   /*background: #91e20f;*/
-  animation: yellow-twinkle 2s infinite alternate;
+  animation: yellow-twinkle 1s infinite alternate;
   /* background-image: url('../img/lh.png');
   background-repeat: repeat;
   background-size: 300px; */
@@ -15,10 +15,11 @@ body {
 
 @keyframes yellow-twinkle{
   0% {
-      background: rgba(52,109,35,1);
+      /*background: rgb(115, 202, 89);*/
+      background: rgb(115, 202, 89);
   }
   100% {
-      background: rgba(52,109,35,1);
+      background: rgb(207, 21, 245);
   }
 }
 
@@ -67,16 +68,16 @@ h1 {
 #danta_left {
   width: 29em;
   margin-bottom: -55em;
-  /*animation: rotate 1.5s infinite;
-  -webkit-animation: rotate 1.5s infinite;*/
+  animation: rotate 1s infinite;
+  -webkit-animation: rotate 1s infinite;
 }
 
 #danta_right {
   width: 29em;
   margin-bottom: 100em;
   margin-left: 65em;
-  /*animation: rotate 1.5s infinite; 
-  -webkit-animation: rotate 1.5s infinite; */
+  animation: rotate 1.5s infinite; 
+  -webkit-animation: rotate 1.5s infinite;
 }
 
 #babamama1 {
