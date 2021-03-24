@@ -27,6 +27,17 @@ h1 {
   color: #F6F4F3;
 }
 
+#danta_left {
+  width: 29em;
+  margin-bottom: -55em;
+}
+
+#danta_right {
+  width: 29em;
+  margin-bottom: -10em;
+  margin-left: 75em;
+}
+
 h1#xixi {
   letter-spacing: 0px;
   font-size: 5em;
