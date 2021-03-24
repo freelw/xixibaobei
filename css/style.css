@@ -22,6 +22,30 @@ body {
   }
 }
 
+
+@keyframes rotate {
+  0%{
+      transform:rotate(0deg);
+      -ms-transform:rotate(0deg);     /* IE 9 */
+      -moz-transform:rotate(0deg);    /* Firefox */
+      -o-transform:rotate(0deg);
+  }
+  100% {
+      transform:rotate(360deg);
+      -ms-transform:rotate(360deg);   /* IE 9 */
+      -moz-transform:rotate(360deg);  /* Firefox */
+      -o-transform:rotate(360deg);    
+  }
+}
+@-webkit-keyframes rotate{
+  0%{
+      -moz-transform: rotate(0deg);
+  }
+  100%{
+      -moz-transform: rotate(360deg);
+  }
+}
+
 .container {
   position: relative;
   margin: -120em auto auto auto;
@@ -43,12 +67,16 @@ h1 {
 #danta_left {
   width: 29em;
   margin-bottom: -55em;
+  /*animation: rotate 1.5s infinite;
+  -webkit-animation: rotate 1.5s infinite;*/
 }
 
 #danta_right {
   width: 29em;
   margin-bottom: 100em;
   margin-left: 65em;
+  /*animation: rotate 1.5s infinite; 
+  -webkit-animation: rotate 1.5s infinite; */
 }
 
 #babamama1 {
