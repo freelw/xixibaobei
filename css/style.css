@@ -11,7 +11,7 @@ body {
 
 .container {
   position: relative;
-  margin: auto;
+  margin: -120em auto auto auto;
   overflow: hidden;
   width: 650px;
   height: 480px;
@@ -34,8 +34,8 @@ h1 {
 
 #danta_right {
   width: 29em;
-  margin-bottom: -10em;
-  margin-left: 75em;
+  margin-bottom: 100em;
+  margin-left: 65em;
 }
 
 h1#xixi {
