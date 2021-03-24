@@ -6,10 +6,20 @@ html {
 
 body {
   display: grid;
-  background: #e2cd0f;
-  background-image: url('../img/lh.png');
+  /*background: #91e20f;*/
+  animation: yellow-twinkle 2s infinite alternate;
+  /* background-image: url('../img/lh.png');
   background-repeat: repeat;
-  background-size: 300px;
+  background-size: 300px; */
+}
+
+@keyframes yellow-twinkle{
+  0% {
+      background: rgba(52,109,35,1);
+  }
+  100% {
+      background: rgba(52,109,35,1);
+  }
 }
 
 .container {
